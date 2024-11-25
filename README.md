@@ -5,6 +5,10 @@ This is an end-to-end Azure Data Engineering project using cutting-edge technolo
 
 Data Source Link : https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
+Reference project:https://www.youtube.com/watch?v=LQY2fvEv4cM&t=6035s&ab_channel=AnshLamba
+
+Connect to ADLS Gen2 using python: https://learn.microsoft.com/en-us/azure/databricks/connect/storage/tutorial-azure-storage
+
 1.create a resource group,storage account (with container names as Bronze,silver,gold),Data factory,key-vault,App registrations,Databricks
 
 2.select the required file from the website-Right click on the file and copy the link address.
@@ -49,11 +53,25 @@ Data Source Link : https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ![image](https://github.com/user-attachments/assets/60eb3168-9bc9-4863-a971-77831298aed3)
 
+13. in the true activity ,similar to what we have done previously like create a linked service,dataset,parameter
 
+![image](https://github.com/user-attachments/assets/6de3985e-0d81-457b-8a3c-10e2e1e51640)
 
+14.in the if condition-true
 
+![image](https://github.com/user-attachments/assets/ce689e2a-6730-4499-943f-4464c1893f79)
 
+15.create app registrations and copy  client id,scoped etc to connect to databricks.
 
+![image](https://github.com/user-attachments/assets/dbcc074e-1e90-4569-b156-ae017f1773f7)
+
+16.Import libraries
+
+![image](https://github.com/user-attachments/assets/8054db7a-abf3-4e74-88b3-ccb884ca23e8)
+
+17.Read csv file and display the data
+
+![image](https://github.com/user-attachments/assets/74702d70-cdf3-4220-b592-8237131aeac6)
 
 
 
