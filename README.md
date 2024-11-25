@@ -35,8 +35,19 @@ Data Source Link : https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ![image](https://github.com/user-attachments/assets/c3337363-2588-46df-8b74-ce89aa9340a5)
 
+![image](https://github.com/user-attachments/assets/26d84c65-7fa2-4003-9765-76dbea0b009b)
 
+10.in the copy activity-source-value-click on foreach activity
 
+![image](https://github.com/user-attachments/assets/a4a680fe-ccd9-426a-9f32-b256ba51f6cd)
+
+11.if the month is single digit it is working fine,but if it sis 2 digit its not working ,so kept an if-condition
+
+![image](https://github.com/user-attachments/assets/7293a2bf-55ce-4c6f-bfe8-f1e31274910b)
+
+12.hj
+
+![image](https://github.com/user-attachments/assets/60eb3168-9bc9-4863-a971-77831298aed3)
 
 
 
